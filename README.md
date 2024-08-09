@@ -4,7 +4,7 @@ Project implementation of a LSM-tree Storage Engine and Vectorization Query.
 
 Documentation: https://iidb.github.io/wing-docs/
  
-## LSM Basic 
+## LSM Tree
 
 Classes implemented: BlockIterator, BlockBuilder, SSTable, SSTableIterator, SSTableBuilder, SortedRun, SortedRunIterator, IteratorHeap, SuperVersion, SuperVersionIterator and Version.
 
