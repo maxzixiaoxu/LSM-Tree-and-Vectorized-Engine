@@ -4,6 +4,8 @@ Project implementation of a LSM-tree Storage Engine and Vectorization Query.
  
 ## LSM Basic 
 
+Classes implemented: BlockIterator, BlockBuilder, SSTable, SSTableIterator, SSTableBuilder, SortedRun, SortedRunIterator, IteratorHeap, SuperVersion, SuperVersionIterator and Version.
+
 The code is in src/storage/lsm. The architecture of the LSM-tree is as follows:
 
 ![image](https://github.com/user-attachments/assets/4986f022-5987-410e-98c2-cf71157b572b)
@@ -59,3 +61,6 @@ The architecture of iterators is as follows. BlockIterator is the iterator on da
 ![image](https://github.com/user-attachments/assets/5cf1af07-754a-4c0a-9ce1-9eb978d6f5e8)
 
 The interfaces of Iterator can be found in storage/lsm/iterator.hpp. 
+
+## Vectorized Engine
+
