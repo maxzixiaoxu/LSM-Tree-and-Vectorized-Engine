@@ -1,10 +1,10 @@
 # LSM-Tree-and-Vectorized-Engine
 
-Project implementation of a LSM-tree Storage Engine and Vectorization Query
+Project implementation of a LSM-tree Storage Engine and Vectorization Query.
  
 ## LSM Basic 
 
-The code is in src/storage/lsm. The architecture of the LSM-tree is as follows.
+The code is in src/storage/lsm. The architecture of the LSM-tree is as follows:
 
 ![image](https://github.com/user-attachments/assets/4986f022-5987-410e-98c2-cf71157b572b)
 
